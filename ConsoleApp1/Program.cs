@@ -1,14 +1,17 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 
-Console.WriteLine("Welcome to this questionaire. Good Luck. First question is what is the capital of Sweden.");
+Console.WriteLine("Welcome to this questionaire. Good Luck. First question is what is the capital of Sweden.                                          Write 1 for Oslo, Write 2 for Stockholm, Write 3 for Malmö");
 
 string Huvud = Console.ReadLine();
 
-if (Huvud == "Stockholm"){
+if (Huvud == "1"){
+    Console.WriteLine("Sorry thats not the right answer");
+}
+else if (Huvud == "2"){
     Console.WriteLine("Well done, thats right");
 }
-else if (Huvud == "stockholm"){
-    Console.WriteLine("Well done, thats right");
+else if (Huvud == "3"){
+    Console.WriteLine("Sorry thats not the right answer");
 }
 else {
     Console.WriteLine("Sorry thats not the right answer");
